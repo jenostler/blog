@@ -9,7 +9,7 @@ body {
 	background: #141414 url(images/chevron.jpg) repeat;
 	/*background: #141414 url(images/floralgray.jpg) repeat;*/
 	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
+	font-size: 14px !important;
 	color: #4F4F4F;
 }
 
@@ -27,6 +27,7 @@ p, ol, ul {
 
 p {
 	line-height: 180%;
+	font-family: "Open Sans";
 }
 
 strong {
@@ -114,6 +115,7 @@ ul.style1 .first {
 	line-height: normal;
 	text-align: center;
 	text-transform: uppercase;
+	font-family: "Archivo Narrow";
 }
 
 #logo h1 a {
@@ -157,7 +159,7 @@ ul.style1 .first {
 	padding: 10px 25px;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Open Sans','Archivo Narrow', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	color: #333333;
@@ -192,6 +194,7 @@ ul.style1 .first {
 #content h2 {
 	padding: 0em 0em 1em 0em;
 	font-size: 2.25em;
+	font-family: "Archivo Narrow";
 }
 
 /** SIDEBAR */
@@ -202,16 +205,30 @@ ul.style1 .first {
 }
 
 #sidebar h2 {
-	padding: 0em 0em 1em 0em;
-	font-size: 2.25em;
+	padding: 0;
+	font-size: 1.75em;
+	font-family: "Archivo Narrow";
 }
 
-/** BANNER */
+#sidebar a {
+	text-decoration: none;
+	color: #cc6492;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+
+/** BANNER 
 
 #banner
 {
 	padding: 30px 0px 0px 0px;
 	border-top: 1px solid #CFCFCF;
+}
+
+#posts {
+	margin-top: 40px;
 }
 
 
@@ -233,33 +250,45 @@ ul.style1 .first {
 #slider
 {
 	position: relative;
-	width: 900px;
+	/*width: 900px;*/
 	margin: 0 auto;
 }
 
-	#slider .viewer
-	{
-		width: 900px;
-		height: 500px;
-		overflow: hidden;
-		margin: 0 auto;
-	}
+#slider .viewer
+{
+	/*width: 900px;*/
+	width: 1200px;
+	height: 500px;
+	/*overflow: hidden;*/
+	margin: 0 auto;
+}
 
-		#slider .viewer .reel
-		{
-		display: none;
-		height: 500px;
-		}
+#slider .viewer .reel
+{
+display: none;
+height: 500px;
+}
 
-		#slider .viewer .reel .slide
-		{
-		position: relative;
-		width: 900px;
-		height: 500px;
-		}
+#slider .viewer .reel .slide
+{
+position: relative;
+width: 900px;
+height: 500px;
+}
 		
-		
-		
-		
-		
+.slide img {
+	width: 100%;
+}
+
+.slide {
+	height: 500px;
+	overflow: hidden;
+}
+
+/*ABOUT ME PAGE*/
+
+#aboutpic{
+	height: 400px;
+	padding: 10px 0px 20px 0px;
+}
 		
