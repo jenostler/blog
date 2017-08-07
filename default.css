@@ -21,6 +21,11 @@ h1, h2, h3 {
 	text-transform: uppercase;
 }
 
+h5 {
+	margin-top: 0px;
+	margin-bottom: 25px !important;
+}
+
 p, ol, ul {
 	margin-top: 0px;
 }
@@ -28,6 +33,7 @@ p, ol, ul {
 p {
 	line-height: 180%;
 	font-family: "Open Sans";
+	padding: 7px;
 }
 
 strong {
@@ -192,7 +198,7 @@ ul.style1 .first {
 }
 
 #content h2 {
-	padding: 0em 0em 1em 0em;
+	padding: 0em 0em 0.1em 0em;
 	font-size: 2.25em;
 	font-family: "Archivo Narrow";
 }
@@ -238,6 +244,7 @@ ul.style1 .first {
 #footer {
 	overflow: hidden;
 	padding: 20px 0px 60px 0px;
+	text-align: center;
 }
 
 #footer p {
@@ -245,6 +252,10 @@ ul.style1 .first {
 }
 
 #footer a {
+}
+
+#footer i {
+	size:;
 }
 
 #slider
@@ -291,4 +302,8 @@ height: 500px;
 	height: 400px;
 	padding: 10px 0px 20px 0px;
 }
-		
+	
+/*Quitting Post*/
+.italic {
+	font-style: italic;
+}
